@@ -1,0 +1,579 @@
+{
+ "version": 3,
+ "items": [
+  {
+   "id": "w01",
+   "gender": "female",
+   "name_cn": "长直发",
+   "prompt_zh": "发型长直发，柔顺笔直的长发，发丝顺滑垂落，发量均匀，无卷曲弧度，线条干净利落。",
+   "img": "women/w01.jpg"
+  },
+  {
+   "id": "w02",
+   "gender": "female",
+   "name_cn": "波浪卷发",
+   "prompt_zh": "发型波浪卷发，大弧度自然波浪长发，卷曲柔和流畅，蓬松有光泽，卷度松散不密集。",
+   "img": "women/w02.jpg"
+  },
+  {
+   "id": "w03",
+   "gender": "female",
+   "name_cn": "短发",
+   "prompt_zh": "发型短发，基础清爽短发，长度较短，轮廓干净简约，无复杂造型。",
+   "img": "women/w03.jpg"
+  },
+  {
+   "id": "w04",
+   "gender": "female",
+   "name_cn": "盘发",
+   "prompt_zh": "发型盘发，全部头发收拢向上盘起，发丝服帖固定，露出脖颈与额头，造型整洁优雅。",
+   "img": "women/w04.jpg"
+  },
+  {
+   "id": "w05",
+   "gender": "female",
+   "name_cn": "短双马尾",
+   "prompt_zh": "发型短双马尾，两侧位置扎起短小马尾，发束不长，俏皮可爱，发丝清爽。",
+   "img": "women/w05.jpg"
+  },
+  {
+   "id": "w06",
+   "gender": "female",
+   "name_cn": "波波头（Bob）",
+   "prompt_zh": "发型波波头，长度在下巴附近的经典波波短发，发尾整齐，轮廓圆润。",
+   "img": "women/w06.jpg"
+  },
+  {
+   "id": "w07",
+   "gender": "female",
+   "name_cn": "低发髻盘发",
+   "prompt_zh": "发型低发髻盘发，在颈后位置盘成低矮发髻，发丝柔和收拢，温婉低调。",
+   "img": "women/w07.jpg"
+  },
+  {
+   "id": "w08",
+   "gender": "female",
+   "name_cn": "精灵短发（Pixie Cut）",
+   "prompt_zh": "发型精灵短发，超短精灵短发，剪裁轻盈利落，轮廓精致，露出耳朵和脖颈。",
+   "img": "women/w08.jpg"
+  },
+  {
+   "id": "w09",
+   "gender": "female",
+   "name_cn": "卷发波波头",
+   "prompt_zh": "发型卷发波波头，波波头基础上带柔和卷度，发尾微微卷曲，蓬松柔和。",
+   "img": "women/w09.jpg"
+  },
+  {
+   "id": "w10",
+   "gender": "female",
+   "name_cn": "高马尾",
+   "prompt_zh": "发型高马尾，马尾扎在头顶偏高位置，发束向上提拉，颅顶蓬松，清爽有活力。",
+   "img": "women/w10.jpg"
+  },
+  {
+   "id": "w11",
+   "gender": "female",
+   "name_cn": "双麻花辫",
+   "prompt_zh": "发型双麻花辫，左右对称编织两条麻花长辫，辫纹规整，发丝顺直编入。",
+   "img": "women/w11.jpg"
+  },
+  {
+   "id": "w12",
+   "gender": "female",
+   "name_cn": "单侧麻花辫",
+   "prompt_zh": "发型单侧麻花辫，只在头部一侧编织一条麻花辫，另一侧头发自然散落。",
+   "img": "women/w12.jpg"
+  },
+  {
+   "id": "w13",
+   "gender": "female",
+   "name_cn": "双丸子头",
+   "prompt_zh": "发型双丸子头，左右两侧各盘一个圆形丸子发髻，圆润饱满，元气活泼。",
+   "img": "women/w13.jpg"
+  },
+  {
+   "id": "w14",
+   "gender": "female",
+   "name_cn": "蓬松爆炸卷发",
+   "prompt_zh": "发型蓬松爆炸卷发，整体蓬松炸开的卷发，卷度密集，发量视觉上膨大，富有张力。",
+   "img": "women/w14.jpg"
+  },
+  {
+   "id": "w15",
+   "gender": "female",
+   "name_cn": "贴头辫 或 玉米垄辫（Cornrows）",
+   "prompt_zh": "发型贴头辫或玉米垄辫，紧贴头皮编织的垄状细辫，辫子顺着头皮排布，纹路清晰。",
+   "img": "women/w15.jpg"
+  },
+  {
+   "id": "w16",
+   "gender": "female",
+   "name_cn": "齐肩带刘海发型",
+   "prompt_zh": "发型齐肩带刘海发型，长度到肩膀的头发，搭配刘海，发长统一，柔和修饰脸型。",
+   "img": "women/w16.jpg"
+  },
+  {
+   "id": "w17",
+   "gender": "female",
+   "name_cn": "中性假小子短发",
+   "prompt_zh": "发型中性假小子短发，偏中性风短发，剪裁利落帅气，风格简约，弱化柔美气质。",
+   "img": "women/w17.jpg"
+  },
+  {
+   "id": "w18",
+   "gender": "female",
+   "name_cn": "层次堆叠卷发短波波头",
+   "prompt_zh": "发型层次堆叠卷发短波波头，短波波基底，多层堆叠剪裁，自带卷曲，层次感丰富。",
+   "img": "women/w18.jpg"
+  },
+  {
+   "id": "w19",
+   "gender": "female",
+   "name_cn": "侧分侧梳高渐变短发",
+   "prompt_zh": "发型侧分侧梳高渐变短发，侧分分界线，头发向一侧梳理，侧边高位渐变铲短。",
+   "img": "women/w19.jpg"
+  },
+  {
+   "id": "w20",
+   "gender": "female",
+   "name_cn": "20世纪20年代风格法式波浪短波波头",
+   "prompt_zh": "发型20世纪20年代风格法式波浪短波波头，复古 20 年代法式手推波浪，短波波长度，起伏规整的复古波纹。",
+   "img": "women/w20.jpg"
+  },
+  {
+   "id": "w21",
+   "gender": "female",
+   "name_cn": "短卷精灵短发",
+   "prompt_zh": "发型短卷精灵短发，精灵超短发，发丝带有自然小卷，蓬松灵动。",
+   "img": "women/w21.jpg"
+  },
+  {
+   "id": "w22",
+   "gender": "female",
+   "name_cn": "长双马尾",
+   "prompt_zh": "发型长双马尾，两侧扎起长马尾，发束长度较长，垂落感明显。",
+   "img": "women/w22.jpg"
+  },
+  {
+   "id": "w23",
+   "gender": "female",
+   "name_cn": "短波浪波波头",
+   "prompt_zh": "发型短波浪波波头，短波波发型，发丝带有柔和波浪弧度，不僵硬死板。",
+   "img": "women/w23.jpg"
+  },
+  {
+   "id": "w24",
+   "gender": "female",
+   "name_cn": "两侧剃短精灵短发",
+   "prompt_zh": "发型两侧剃短精灵短发，精灵短发，两侧头发剃短，顶部保留少量发丝，反差强烈。",
+   "img": "women/w24.jpg"
+  },
+  {
+   "id": "w25",
+   "gender": "female",
+   "name_cn": "超长波浪发",
+   "prompt_zh": "发型超长波浪发，长度过胸的超长头发，连贯柔和大波浪，垂坠感强。",
+   "img": "women/w25.jpg"
+  },
+  {
+   "id": "w26",
+   "gender": "female",
+   "name_cn": "齐肩直发",
+   "prompt_zh": "发型齐肩直发，长度刚好到肩膀的直发，发丝笔直顺滑，发尾平齐。",
+   "img": "women/w26.jpg"
+  },
+  {
+   "id": "w27",
+   "gender": "female",
+   "name_cn": "鱼尾辫",
+   "prompt_zh": "发型鱼尾辫，编织成鱼尾样式的辫子，辫身细密分叉，纹理精致。",
+   "img": "women/w27.jpg"
+  },
+  {
+   "id": "w28",
+   "gender": "female",
+   "name_cn": "齐尾一刀切波波头",
+   "prompt_zh": "发型齐尾一刀切波波头，一刀切波波短发，发尾平直整齐，没有碎发，线条干净锐利。",
+   "img": "women/w28.jpg"
+  },
+  {
+   "id": "w29",
+   "gender": "female",
+   "name_cn": "羊毛卷长发",
+   "prompt_zh": "发型羊毛卷长发，长发烫出细密蓬松羊毛小卷，卷度紧凑，整体饱满。",
+   "img": "women/w29.jpg"
+  },
+  {
+   "id": "w30",
+   "gender": "female",
+   "name_cn": "半扎高颅顶长发",
+   "prompt_zh": "发型半扎高颅顶长发，上半部分头发半扎起来，拉高颅顶，下半部分长发自然垂落。",
+   "img": "women/w30.jpg"
+  },
+  {
+   "id": "w31",
+   "gender": "female",
+   "name_cn": "公主头半扎发",
+   "prompt_zh": "发型公主头半扎发，头顶两侧取部分头发向后收拢固定的公主半扎发，余下长发散开。",
+   "img": "women/w31.jpg"
+  },
+  {
+   "id": "w32",
+   "gender": "female",
+   "name_cn": "法式慵懒低马尾",
+   "prompt_zh": "发型法式慵懒低马尾，低位扎马尾，发丝松散随意，留有碎发，慵懒松弛感。",
+   "img": "women/w32.jpg"
+  },
+  {
+   "id": "w33",
+   "gender": "female",
+   "name_cn": "羊毛卷波波头",
+   "prompt_zh": "发型羊毛卷波波头，波波短发，烫细密羊毛小卷，蓬松饱满。",
+   "img": "women/w33.jpg"
+  },
+  {
+   "id": "w34",
+   "gender": "female",
+   "name_cn": "羊毛卷双丸子头",
+   "prompt_zh": "发型羊毛卷双丸子头，羊毛卷发基础上，扎两个丸子发髻，卷度包裹丸子。",
+   "img": "women/w34.jpg"
+  },
+  {
+   "id": "w35",
+   "gender": "female",
+   "name_cn": "锁骨发（带层次）",
+   "prompt_zh": "发型锁骨发（带层次），长度到锁骨，多层层次剪裁，柔和不厚重。",
+   "img": "women/w35.jpg"
+  },
+  {
+   "id": "w36",
+   "gender": "female",
+   "name_cn": "水母头",
+   "prompt_zh": "发型水母头，外层头发较短，内层长发从下层垂出，形似水母，长短反差造型。",
+   "img": "women/w36.jpg"
+  },
+  {
+   "id": "w37",
+   "gender": "female",
+   "name_cn": "慵懒羊毛卷锁骨发",
+   "prompt_zh": "发型慵懒羊毛卷锁骨发，锁骨长度，羊毛小卷，卷度松散自然，不紧绷。",
+   "img": "women/w37.jpg"
+  },
+  {
+   "id": "w38",
+   "gender": "female",
+   "name_cn": "拳击辫",
+   "prompt_zh": "发型拳击辫，紧贴头皮向后编织的两条粗辫，紧实利落，运动感强。",
+   "img": "women/w38.jpg"
+  },
+  {
+   "id": "w39",
+   "gender": "female",
+   "name_cn": "半扎丸子头",
+   "prompt_zh": "发型半扎丸子头，取上半部分头发扎成一个丸子，下半截头发自然散落。",
+   "img": "women/w39.jpg"
+  },
+  {
+   "id": "w40",
+   "gender": "female",
+   "name_cn": "空气刘海长卷发",
+   "prompt_zh": "发型空气刘海长卷发，轻薄空气刘海搭配长卷发，刘海通透，卷度柔和。",
+   "img": "women/w40.jpg"
+  },
+  {
+   "id": "w41",
+   "gender": "female",
+   "name_cn": "法式刘海层次长发",
+   "prompt_zh": "发型法式刘海层次长发，轻薄法式碎刘海，长发做层次剪裁，随性自然。",
+   "img": "women/w41.jpg"
+  },
+  {
+   "id": "w42",
+   "gender": "female",
+   "name_cn": "低双马尾",
+   "prompt_zh": "发型低双马尾，在靠下位置扎两条马尾，马尾垂在肩侧，温柔安静。",
+   "img": "women/w42.jpg"
+  },
+  {
+   "id": "w43",
+   "gender": "female",
+   "name_cn": "狼尾短发",
+   "prompt_zh": "发型狼尾短发，短发款式，头顶蓬松，后脑勺保留一撮偏长碎发，个性有层次感。",
+   "img": "women/w43.jpg"
+  },
+  {
+   "id": "w44",
+   "gender": "female",
+   "name_cn": "丝带编发长发",
+   "prompt_zh": "发型丝带编发长发，长发编织辫子，搭配丝带编入发间，温柔精致。",
+   "img": "women/w44.jpg"
+  },
+  {
+   "id": "w45",
+   "gender": "female",
+   "name_cn": "复古赫本盘发",
+   "prompt_zh": "发型复古赫本盘发，经典赫本复古盘发，头发整齐收拢盘起，轮廓优雅大气。",
+   "img": "women/w45.jpg"
+  },
+  {
+   "id": "w46",
+   "gender": "female",
+   "name_cn": "公主切",
+   "prompt_zh": "发型公主切，脸颊两侧保留竖向长条发片，其余头发收短，标志性公主切线条。",
+   "img": "women/w46.jpg"
+  },
+  {
+   "id": "w47",
+   "gender": "female",
+   "name_cn": "齐刘海",
+   "prompt_zh": "发型齐刘海，平直整齐的齐刘海，横向遮住额头，发尾平齐。",
+   "img": "women/w47.jpg"
+  },
+  {
+   "id": "w48",
+   "gender": "female",
+   "name_cn": "内扣短发",
+   "prompt_zh": "发型内扣短发，短发发尾向内微微扣向脸部，柔和包裹下颌。",
+   "img": "women/w48.jpg"
+  },
+  {
+   "id": "w49",
+   "gender": "female",
+   "name_cn": "空气刘海内扣短发",
+   "prompt_zh": "发型空气刘海内扣短发，轻薄通透空气刘海，搭配发尾向内扣的短发。",
+   "img": "women/w49.jpg"
+  },
+  {
+   "id": "w50",
+   "gender": "female",
+   "name_cn": "八字刘海高马尾",
+   "prompt_zh": "发型八字刘海高马尾，八字弧形刘海，搭配高位马尾，刘海向两边分开修饰颧骨。",
+   "img": "women/w50.jpg"
+  },
+  {
+   "id": "w51",
+   "gender": "female",
+   "name_cn": "八字刘海短马尾",
+   "prompt_zh": "发型八字刘海短马尾，八字弧形刘海，低位偏上的短小马尾，清爽柔和。",
+   "img": "women/w51.jpg"
+  },
+  {
+   "id": "w52",
+   "gender": "female",
+   "name_cn": "齐刘海短马尾",
+   "prompt_zh": "发型齐刘海短马尾，平直齐刘海，搭配短小马尾，发束不长。",
+   "img": "women/w52.jpg"
+  },
+  {
+   "id": "m01",
+   "gender": "male",
+   "name_cn": "圆寸",
+   "prompt_zh": "发型圆寸，极短均匀寸头，整体轮廓圆润，长度一致，无明显层次。",
+   "img": "men/m01.jpg"
+  },
+  {
+   "id": "m02",
+   "gender": "male",
+   "name_cn": "板寸",
+   "prompt_zh": "发型板寸，短寸发型，头顶头发平直硬朗，顶部呈平整板面，边角利落。",
+   "img": "men/m02.jpg"
+  },
+  {
+   "id": "m03",
+   "gender": "male",
+   "name_cn": "小平头",
+   "prompt_zh": "发型小平头，短款平头，头顶平整，四周推短，造型简约干净。",
+   "img": "men/m03.jpg"
+  },
+  {
+   "id": "m04",
+   "gender": "male",
+   "name_cn": "卡尺头",
+   "prompt_zh": "发型卡尺头，使用卡尺推剪的均匀短发，长短统一，线条规整。",
+   "img": "men/m04.jpg"
+  },
+  {
+   "id": "m05",
+   "gender": "male",
+   "name_cn": "栗子头",
+   "prompt_zh": "发型栗子头，顶部饱满圆润像栗子，两侧收紧，短发利落柔和。",
+   "img": "men/m05.jpg"
+  },
+  {
+   "id": "m06",
+   "gender": "male",
+   "name_cn": "家常短碎发",
+   "prompt_zh": "发型家常短碎发，自然短碎短发，轻微层次，发丝松散随性，不刻意造型。",
+   "img": "men/m06.jpg"
+  },
+  {
+   "id": "m07",
+   "gender": "male",
+   "name_cn": "学生标准短发",
+   "prompt_zh": "发型学生标准短发，清爽合规学生短发，长度适中，整齐不夸张。",
+   "img": "men/m07.jpg"
+  },
+  {
+   "id": "m08",
+   "gender": "male",
+   "name_cn": "锅盖头",
+   "prompt_zh": "发型锅盖头，齐厚锅盖造型，头发覆盖额头，四周整齐，轮廓圆润。",
+   "img": "men/m08.jpg"
+  },
+  {
+   "id": "m09",
+   "gender": "male",
+   "name_cn": "碎锅盖",
+   "prompt_zh": "发型碎锅盖，改良锅盖头，发尾打碎有层次，不厚重死板，带碎感。",
+   "img": "men/m09.jpg"
+  },
+  {
+   "id": "m10",
+   "gender": "male",
+   "name_cn": "微分碎盖",
+   "prompt_zh": "发型微分碎盖，刘海微微向一侧分开，顶部蓬松碎发，两侧收短。",
+   "img": "men/m10.jpg"
+  },
+  {
+   "id": "m11",
+   "gender": "male",
+   "name_cn": "三七侧分头",
+   "prompt_zh": "发型三七侧分头，3:7 比例侧分缝，头发向一侧梳理，线条整齐。",
+   "img": "men/m11.jpg"
+  },
+  {
+   "id": "m12",
+   "gender": "male",
+   "name_cn": "四六侧分短发",
+   "prompt_zh": "发型四六侧分短发，4:6 比例侧分，短发，发丝侧梳，清爽利落。",
+   "img": "men/m12.jpg"
+  },
+  {
+   "id": "m13",
+   "gender": "male",
+   "name_cn": "大背头",
+   "prompt_zh": "发型大背头，全部头发向后梳服帖，额头完全露出，发根立起。",
+   "img": "men/m13.jpg"
+  },
+  {
+   "id": "m14",
+   "gender": "male",
+   "name_cn": "短侧背",
+   "prompt_zh": "发型短侧背，短款侧背头，头发向后向侧面收拢，长度偏短。",
+   "img": "men/m14.jpg"
+  },
+  {
+   "id": "m15",
+   "gender": "male",
+   "name_cn": "前刺短发",
+   "prompt_zh": "发型前刺短发，头顶发丝向前向上直立刺状，两侧推短，立体感强。",
+   "img": "men/m15.jpg"
+  },
+  {
+   "id": "m16",
+   "gender": "male",
+   "name_cn": "纹理烫短发",
+   "prompt_zh": "发型纹理烫短发，短发烫出自然纹理弧度，蓬松有线条，不卷炸。",
+   "img": "men/m16.jpg"
+  },
+  {
+   "id": "m17",
+   "gender": "male",
+   "name_cn": "摩根烫短发",
+   "prompt_zh": "发型摩根烫短发，短发发根垫高蓬松，发尾顺直，增加颅顶高度。",
+   "img": "men/m17.jpg"
+  },
+  {
+   "id": "m18",
+   "gender": "male",
+   "name_cn": "两侧铲青短发",
+   "prompt_zh": "发型两侧铲青短发，两侧及后区推光铲短，保留头顶头发，对比强烈。",
+   "img": "men/m18.jpg"
+  },
+  {
+   "id": "m19",
+   "gender": "male",
+   "name_cn": "短狼尾",
+   "prompt_zh": "发型短狼尾，短发版狼尾，头顶蓬松，后尾一小撮头发稍长、垂坠。",
+   "img": "men/m19.jpg"
+  },
+  {
+   "id": "m20",
+   "gender": "male",
+   "name_cn": "鲻鱼头",
+   "prompt_zh": "发型鲻鱼头，前短后长，头顶两侧短，后脑勺发尾留长，层次反差大。",
+   "img": "men/m20.jpg"
+  },
+  {
+   "id": "m21",
+   "gender": "male",
+   "name_cn": "中分短发",
+   "prompt_zh": "发型中分短发，头发从中间分开，向两侧垂落，短发，线条对称。",
+   "img": "men/m21.jpg"
+  },
+  {
+   "id": "m22",
+   "gender": "male",
+   "name_cn": "中老年烫小卷",
+   "prompt_zh": "发型中老年烫小卷，细密紧实小卷，整体蓬松柔和，适合年长男士。",
+   "img": "men/m22.jpg"
+  },
+  {
+   "id": "m23",
+   "gender": "male",
+   "name_cn": "自然中短层次发",
+   "prompt_zh": "发型自然中短层次发，中短发，柔和层次剪裁，发丝自然松散无刻意造型。",
+   "img": "men/m23.jpg"
+  },
+  {
+   "id": "m24",
+   "gender": "male",
+   "name_cn": "老式分头",
+   "prompt_zh": "发型老式分头，复古老式侧分头，分界清晰，服帖规整，年代感强。",
+   "img": "men/m24.jpg"
+  },
+  {
+   "id": "m25",
+   "gender": "male",
+   "name_cn": "小男孩蘑菇头",
+   "prompt_zh": "发型小男孩蘑菇头，圆润蘑菇造型，刘海齐整，轮廓圆钝，孩童感。",
+   "img": "men/m25.jpg"
+  },
+  {
+   "id": "m26",
+   "gender": "male",
+   "name_cn": "低渐变短发",
+   "prompt_zh": "发型低渐变短发，从耳下位置开始渐变推短，过渡柔和，顶部短发。",
+   "img": "men/m26.jpg"
+  },
+  {
+   "id": "m27",
+   "gender": "male",
+   "name_cn": "高渐变短发",
+   "prompt_zh": "发型高渐变短发，高位渐变，靠近头顶位置开始向下推短，对比明显。",
+   "img": "men/m27.jpg"
+  },
+  {
+   "id": "m28",
+   "gender": "male",
+   "name_cn": "子弹头",
+   "prompt_zh": "发型子弹头，头顶头发由四周向中间聚拢向上收窄，形似子弹，棱角锐利。",
+   "img": "men/m28.jpg"
+  },
+  {
+   "id": "m29",
+   "gender": "male",
+   "name_cn": "地中海周边短发",
+   "prompt_zh": "发型地中海周边短发，头顶发量稀疏光秃，四周保留一圈短发。",
+   "img": "men/m29.jpg"
+  },
+  {
+   "id": "m30",
+   "gender": "male",
+   "name_cn": "港风侧背头",
+   "prompt_zh": "发型港风侧背头，复古港风侧背，蓬松不贴头皮，柔和向后侧梳理，氛围感复古。",
+   "img": "men/m30.jpg"
+  }
+ ]
+}

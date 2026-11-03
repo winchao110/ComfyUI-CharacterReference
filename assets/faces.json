@@ -1,0 +1,1054 @@
+{
+ "version": 1,
+ "total": 131,
+ "items": [
+  {
+   "id": "r01",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，眉形柔和，衬脸型美感",
+   "prompt_zh": "中国女性面部，鹅蛋脸，眉形柔和，衬脸型美感。",
+   "img": "faces/r01.jpg",
+   "src": "鹅蛋脸，柔和的眉形，不破坏鹅蛋脸型原本的美感.png"
+  },
+  {
+   "id": "r02",
+   "gender": "female",
+   "name_cn": "圆脸，眉峰挑高，显脸长",
+   "prompt_zh": "中国女性面部，圆脸，眉峰挑高，显脸长。",
+   "img": "faces/r02.jpg",
+   "src": "圆脸，把眉峰挑高，显脸长.png"
+  },
+  {
+   "id": "r03",
+   "gender": "female",
+   "name_cn": "方脸，眉峰拉高，显脸长",
+   "prompt_zh": "中国女性面部，方脸，眉峰拉高，显脸长。",
+   "img": "faces/r03.jpg",
+   "src": "方脸，眉峰拉高，显脸长.png"
+  },
+  {
+   "id": "r04",
+   "gender": "female",
+   "name_cn": "长脸，平眉，显脸短",
+   "prompt_zh": "中国女性面部，长脸，平眉，显脸短。",
+   "img": "faces/r04.jpg",
+   "src": "长脸，平眉，显得脸短一些.png"
+  },
+  {
+   "id": "r05",
+   "gender": "female",
+   "name_cn": "心形脸，眉形柔和无棱角，更温柔",
+   "prompt_zh": "中国女性面部，心形脸，眉形柔和无棱角，更温柔。",
+   "img": "faces/r05.jpg",
+   "src": "心形脸，眉形柔和没有明显棱角，会看上去更温柔.png"
+  },
+  {
+   "id": "r06",
+   "gender": "female",
+   "name_cn": "菱形脸，弯眉无眉峰，弱化颧骨",
+   "prompt_zh": "中国女性面部，菱形脸，弯眉无眉峰，弱化颧骨。",
+   "img": "faces/r06.jpg",
+   "src": "菱形脸，眉毛要弯，没有明显眉峰，不让注意力落到颧骨上.png"
+  },
+  {
+   "id": "b001",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉大眼，温婉明艳",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉大眼，温婉明艳。",
+   "img": "faces/b001.jpg",
+   "src": "001_鹅蛋脸，平眉大眼，温婉明艳.jpg"
+  },
+  {
+   "id": "b002",
+   "gender": "female",
+   "name_cn": "圆脸，圆眼小鼻，甜美稚气",
+   "prompt_zh": "中国女性面部，圆脸，圆眼小鼻，甜美稚气。",
+   "img": "faces/b002.jpg",
+   "src": "002_圆脸，圆眼小鼻，甜美稚气.jpg"
+  },
+  {
+   "id": "b003",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉杏眼，清新温柔",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉杏眼，清新温柔。",
+   "img": "faces/b003.jpg",
+   "src": "003_鹅蛋脸，平眉杏眼，清新温柔.jpg"
+  },
+  {
+   "id": "b004",
+   "gender": "female",
+   "name_cn": "长脸，高鼻梁厚唇，冷艳慵懒",
+   "prompt_zh": "中国女性面部，长脸，高鼻梁厚唇，冷艳慵懒。",
+   "img": "faces/b004.jpg",
+   "src": "004_长脸，高鼻梁厚唇，冷艳慵懒.jpg"
+  },
+  {
+   "id": "b005",
+   "gender": "female",
+   "name_cn": "长脸，上挑凤眼，冷艳魅惑",
+   "prompt_zh": "中国女性面部，长脸，上挑凤眼，冷艳魅惑。",
+   "img": "faces/b005.jpg",
+   "src": "005_长脸，上挑凤眼，冷艳魅惑.jpg"
+  },
+  {
+   "id": "b006",
+   "gender": "female",
+   "name_cn": "圆脸，圆眼圆鼻，温柔亲和",
+   "prompt_zh": "中国女性面部，圆脸，圆眼圆鼻，温柔亲和。",
+   "img": "faces/b006.jpg",
+   "src": "007_圆脸，圆眼圆鼻，温柔亲和.jpg"
+  },
+  {
+   "id": "b007",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细长眼薄唇，清冷英气",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细长眼薄唇，清冷英气。",
+   "img": "faces/b007.jpg",
+   "src": "008_鹅蛋脸，细长眼薄唇，清冷英气.jpg"
+  },
+  {
+   "id": "b008",
+   "gender": "female",
+   "name_cn": "心形脸，挑眉大眼，美艳凌厉",
+   "prompt_zh": "中国女性面部，心形脸，挑眉大眼，美艳凌厉。",
+   "img": "faces/b008.jpg",
+   "src": "010_心形脸，挑眉大眼，美艳凌厉.jpg"
+  },
+  {
+   "id": "b009",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，圆眼齐刘海，甜美俏皮",
+   "prompt_zh": "中国女性面部，鹅蛋脸，圆眼齐刘海，甜美俏皮。",
+   "img": "faces/b009.jpg",
+   "src": "011_鹅蛋脸，圆眼齐刘海，甜美俏皮.jpg"
+  },
+  {
+   "id": "b010",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细长眼直鼻，清冷疏离",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细长眼直鼻，清冷疏离。",
+   "img": "faces/b010.jpg",
+   "src": "012_鹅蛋脸，细长眼直鼻，清冷疏离.jpg"
+  },
+  {
+   "id": "b011",
+   "gender": "female",
+   "name_cn": "圆脸，粗眉圆眼，软萌温柔",
+   "prompt_zh": "中国女性面部，圆脸，粗眉圆眼，软萌温柔。",
+   "img": "faces/b011.jpg",
+   "src": "013_圆脸，粗眉圆眼，软萌温柔.jpg"
+  },
+  {
+   "id": "b012",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉杏眼，恬静温柔",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉杏眼，恬静温柔。",
+   "img": "faces/b012.jpg",
+   "src": "014_鹅蛋脸，平眉杏眼，恬静温柔.jpg"
+  },
+  {
+   "id": "b013",
+   "gender": "female",
+   "name_cn": "心形脸，粗眉大眼，阳光活泼",
+   "prompt_zh": "中国女性面部，心形脸，粗眉大眼，阳光活泼。",
+   "img": "faces/b013.jpg",
+   "src": "015_心形脸，粗眉大眼，阳光活泼.jpg"
+  },
+  {
+   "id": "b014",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，下垂眼厚唇，冷感酷飒",
+   "prompt_zh": "中国女性面部，鹅蛋脸，下垂眼厚唇，冷感酷飒。",
+   "img": "faces/b014.jpg",
+   "src": "016_鹅蛋脸，下垂眼厚唇，冷感酷飒.jpg"
+  },
+  {
+   "id": "b015",
+   "gender": "female",
+   "name_cn": "心形脸，细长眼下垂，清冷厌世",
+   "prompt_zh": "中国女性面部，心形脸，细长眼下垂，清冷厌世。",
+   "img": "faces/b015.jpg",
+   "src": "017_心形脸，细长眼下垂，清冷厌世.jpg"
+  },
+  {
+   "id": "b016",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉圆眼，温和乖巧",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉圆眼，温和乖巧。",
+   "img": "faces/b016.jpg",
+   "src": "018_鹅蛋脸，平眉圆眼，温和乖巧.jpg"
+  },
+  {
+   "id": "b017",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，挑眉杏眼，明艳大方",
+   "prompt_zh": "中国女性面部，鹅蛋脸，挑眉杏眼，明艳大方。",
+   "img": "faces/b017.jpg",
+   "src": "019_鹅蛋脸，挑眉杏眼，明艳大方.jpg"
+  },
+  {
+   "id": "b018",
+   "gender": "female",
+   "name_cn": "长脸，粗眉细长眼，端庄沉稳",
+   "prompt_zh": "中国女性面部，长脸，粗眉细长眼，端庄沉稳。",
+   "img": "faces/b018.jpg",
+   "src": "020_长脸，粗眉细长眼，端庄沉稳.jpg"
+  },
+  {
+   "id": "b019",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉大圆眼，清丽甜美",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉大圆眼，清丽甜美。",
+   "img": "faces/b019.jpg",
+   "src": "021_鹅蛋脸，平眉大圆眼，清丽甜美.jpg"
+  },
+  {
+   "id": "b020",
+   "gender": "female",
+   "name_cn": "圆脸，平眉圆眼小鼻，娇憨甜美",
+   "prompt_zh": "中国女性面部，圆脸，平眉圆眼小鼻，娇憨甜美。",
+   "img": "faces/b020.jpg",
+   "src": "022_圆脸，平眉圆眼小鼻，娇憨甜美.jpg"
+  },
+  {
+   "id": "b021",
+   "gender": "female",
+   "name_cn": "心形脸，挑眉细长眼，妩媚妖娆",
+   "prompt_zh": "中国女性面部，心形脸，挑眉细长眼，妩媚妖娆。",
+   "img": "faces/b021.jpg",
+   "src": "023_心形脸，挑眉细长眼，妩媚妖娆.jpg"
+  },
+  {
+   "id": "b022",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细长眼厚唇，慵懒性感",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细长眼厚唇，慵懒性感。",
+   "img": "faces/b022.jpg",
+   "src": "025_鹅蛋脸，细长眼厚唇，慵懒性感.jpg"
+  },
+  {
+   "id": "b023",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，粗眉大圆眼，自然阳光",
+   "prompt_zh": "中国女性面部，鹅蛋脸，粗眉大圆眼，自然阳光。",
+   "img": "faces/b023.jpg",
+   "src": "026_鹅蛋脸，粗眉大圆眼，自然阳光.jpg"
+  },
+  {
+   "id": "b024",
+   "gender": "female",
+   "name_cn": "圆脸，挑眉大眼，甜辣俏皮",
+   "prompt_zh": "中国女性面部，圆脸，挑眉大眼，甜辣俏皮。",
+   "img": "faces/b024.jpg",
+   "src": "027_圆脸，挑眉大眼，甜辣俏皮.jpg"
+  },
+  {
+   "id": "b025",
+   "gender": "female",
+   "name_cn": "长脸，垂眼细长，清冷梦幻",
+   "prompt_zh": "中国女性面部，长脸，垂眼细长，清冷梦幻。",
+   "img": "faces/b025.jpg",
+   "src": "028_长脸，垂眼细长，清冷梦幻.jpg"
+  },
+  {
+   "id": "b026",
+   "gender": "female",
+   "name_cn": "心形脸，圆眼浓睫，精致清冷",
+   "prompt_zh": "中国女性面部，心形脸，圆眼浓睫，精致清冷。",
+   "img": "faces/b026.jpg",
+   "src": "029_心形脸，圆眼浓睫，精致清冷.jpg"
+  },
+  {
+   "id": "b027",
+   "gender": "female",
+   "name_cn": "方脸，粗挑眉细长眼，暗黑戏剧",
+   "prompt_zh": "中国女性面部，方脸，粗挑眉细长眼，暗黑戏剧。",
+   "img": "faces/b027.jpg",
+   "src": "030_方脸，粗挑眉细长眼，暗黑戏剧.jpg"
+  },
+  {
+   "id": "b028",
+   "gender": "female",
+   "name_cn": "圆脸，平眉圆眼，温婉古典",
+   "prompt_zh": "中国女性面部，圆脸，平眉圆眼，温婉古典。",
+   "img": "faces/b028.jpg",
+   "src": "031_圆脸，平眉圆眼，温婉古典.jpg"
+  },
+  {
+   "id": "b029",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉大眼，甜美可人",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉大眼，甜美可人。",
+   "img": "faces/b029.jpg",
+   "src": "032_鹅蛋脸，平眉大眼，甜美可人.jpg"
+  },
+  {
+   "id": "b030",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉圆眼，温柔邻家",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉圆眼，温柔邻家。",
+   "img": "faces/b030.jpg",
+   "src": "033_鹅蛋脸，平眉圆眼，温柔邻家.jpg"
+  },
+  {
+   "id": "b031",
+   "gender": "female",
+   "name_cn": "长脸，粗眉细长眼，清丽素净",
+   "prompt_zh": "中国女性面部，长脸，粗眉细长眼，清丽素净。",
+   "img": "faces/b031.jpg",
+   "src": "034_长脸，粗眉细长眼，清丽素净.jpg"
+  },
+  {
+   "id": "b032",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，挑眉杏眼，明艳开朗",
+   "prompt_zh": "中国女性面部，鹅蛋脸，挑眉杏眼，明艳开朗。",
+   "img": "faces/b032.jpg",
+   "src": "035_鹅蛋脸，挑眉杏眼，明艳开朗.jpg"
+  },
+  {
+   "id": "b033",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉圆眼，清纯倔强",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉圆眼，清纯倔强。",
+   "img": "faces/b033.jpg",
+   "src": "036_鹅蛋脸，平眉圆眼，清纯倔强.jpg"
+  },
+  {
+   "id": "b034",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，大眼小鼻，甜美温婉",
+   "prompt_zh": "中国女性面部，鹅蛋脸，大眼小鼻，甜美温婉。",
+   "img": "faces/b034.jpg",
+   "src": "037_鹅蛋脸，大眼小鼻，甜美温婉.jpg"
+  },
+  {
+   "id": "b035",
+   "gender": "female",
+   "name_cn": "心形脸，上挑眼小唇，甜酷冷调",
+   "prompt_zh": "中国女性面部，心形脸，上挑眼小唇，甜酷冷调。",
+   "img": "faces/b035.jpg",
+   "src": "039_心形脸，上挑眼小唇，甜酷冷调.jpg"
+  },
+  {
+   "id": "b036",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，圆眼弯眉，清甜温柔",
+   "prompt_zh": "中国女性面部，鹅蛋脸，圆眼弯眉，清甜温柔。",
+   "img": "faces/b036.jpg",
+   "src": "040_鹅蛋脸，圆眼弯眉，清甜温柔.jpg"
+  },
+  {
+   "id": "b037",
+   "gender": "female",
+   "name_cn": "小圆脸，圆眼小唇，天真稚气",
+   "prompt_zh": "中国女性面部，小圆脸，圆眼小唇，天真稚气。",
+   "img": "faces/b037.jpg",
+   "src": "041_小圆脸，圆眼小唇，天真稚气.jpg"
+  },
+  {
+   "id": "b038",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，大圆眼厚唇，清新明亮",
+   "prompt_zh": "中国女性面部，鹅蛋脸，大圆眼厚唇，清新明亮。",
+   "img": "faces/b038.jpg",
+   "src": "042_鹅蛋脸，大圆眼厚唇，清新明亮.jpg"
+  },
+  {
+   "id": "b039",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，挑眉细长眼，明媚张扬",
+   "prompt_zh": "中国女性面部，鹅蛋脸，挑眉细长眼，明媚张扬。",
+   "img": "faces/b039.jpg",
+   "src": "043_鹅蛋脸，挑眉细长眼，明媚张扬.jpg"
+  },
+  {
+   "id": "b040",
+   "gender": "female",
+   "name_cn": "心形脸，大眼睛小鼻，甜媚灵动",
+   "prompt_zh": "中国女性面部，心形脸，大眼睛小鼻，甜媚灵动。",
+   "img": "faces/b040.jpg",
+   "src": "044_心形脸，大眼睛小鼻，甜媚灵动.jpg"
+  },
+  {
+   "id": "b041",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，大眼厚唇，冷艳野性",
+   "prompt_zh": "中国女性面部，鹅蛋脸，大眼厚唇，冷艳野性。",
+   "img": "faces/b041.jpg",
+   "src": "045_鹅蛋脸，大眼厚唇，冷艳野性.jpg"
+  },
+  {
+   "id": "b042",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细长眼厚唇，成熟慵懒",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细长眼厚唇，成熟慵懒。",
+   "img": "faces/b042.jpg",
+   "src": "046_鹅蛋脸，细长眼厚唇，成熟慵懒.jpg"
+  },
+  {
+   "id": "b043",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉大眼，冷艳疏离",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉大眼，冷艳疏离。",
+   "img": "faces/b043.jpg",
+   "src": "047_鹅蛋脸，平眉大眼，冷艳疏离.jpg"
+  },
+  {
+   "id": "b044",
+   "gender": "female",
+   "name_cn": "小鹅蛋脸，大眼厚唇，甜辣撩人",
+   "prompt_zh": "中国女性面部，小鹅蛋脸，大眼厚唇，甜辣撩人。",
+   "img": "faces/b044.jpg",
+   "src": "048_小鹅蛋脸，大眼厚唇，甜辣撩人.jpg"
+  },
+  {
+   "id": "b045",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细长眉杏眼，成熟端庄",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细长眉杏眼，成熟端庄。",
+   "img": "faces/b045.jpg",
+   "src": "049_鹅蛋脸，细长眉杏眼，成熟端庄.jpg"
+  },
+  {
+   "id": "b046",
+   "gender": "female",
+   "name_cn": "心形脸，圆眼小鼻，清纯灵动",
+   "prompt_zh": "中国女性面部，心形脸，圆眼小鼻，清纯灵动。",
+   "img": "faces/b046.jpg",
+   "src": "050_心形脸，圆眼小鼻，清纯灵动.jpg"
+  },
+  {
+   "id": "b047",
+   "gender": "female",
+   "name_cn": "长脸，粗眉细长眼，清冷寡淡",
+   "prompt_zh": "中国女性面部，长脸，粗眉细长眼，清冷寡淡。",
+   "img": "faces/b047.jpg",
+   "src": "051_长脸，粗眉细长眼，清冷寡淡.jpg"
+  },
+  {
+   "id": "b048",
+   "gender": "female",
+   "name_cn": "心形脸，挑眉上挑眼，冷艳锐利",
+   "prompt_zh": "中国女性面部，心形脸，挑眉上挑眼，冷艳锐利。",
+   "img": "faces/b048.jpg",
+   "src": "052_心形脸，挑眉上挑眼，冷艳锐利.jpg"
+  },
+  {
+   "id": "f008",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，圆眼双眼皮，清纯甜美",
+   "prompt_zh": "中国女性面部，鹅蛋脸，圆眼双眼皮，清纯甜美。",
+   "img": "faces/f008.jpg",
+   "src": "008_鹅蛋脸，圆眼双眼皮，清纯甜美.jpg"
+  },
+  {
+   "id": "f009",
+   "gender": "female",
+   "name_cn": "菱形脸，单眼皮直鼻，清冷疏离",
+   "prompt_zh": "中国女性面部，菱形脸，单眼皮直鼻，清冷疏离。",
+   "img": "faces/f009.jpg",
+   "src": "009_菱形脸，单眼皮直鼻，清冷疏离.jpg"
+  },
+  {
+   "id": "f016",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，单眼皮窄长眼，清冷出尘",
+   "prompt_zh": "中国女性面部，鹅蛋脸，单眼皮窄长眼，清冷出尘。",
+   "img": "faces/f016.jpg",
+   "src": "016_鹅蛋脸，单眼皮窄长眼，清冷出尘.jpg"
+  },
+  {
+   "id": "f038",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，圆眼卧蚕，甜美温和",
+   "prompt_zh": "中国女性面部，鹅蛋脸，圆眼卧蚕，甜美温和。",
+   "img": "faces/f038.jpg",
+   "src": "038_鹅蛋脸，圆眼卧蚕，甜美温和.jpg"
+  },
+  {
+   "id": "f053",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，浅眉杏眼，温柔恬静",
+   "prompt_zh": "中国女性面部，鹅蛋脸，浅眉杏眼，温柔恬静。",
+   "img": "faces/f053.jpg",
+   "src": "053_鹅蛋脸，浅眉杏眼，温柔恬静.jpg"
+  },
+  {
+   "id": "f055",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，大眼卧蚕，清秀灵动",
+   "prompt_zh": "中国女性面部，鹅蛋脸，大眼卧蚕，清秀灵动。",
+   "img": "faces/f055.jpg",
+   "src": "055_鹅蛋脸，大眼卧蚕，清秀灵动.jpg"
+  },
+  {
+   "id": "f057",
+   "gender": "female",
+   "name_cn": "长脸，平眉细眼，冷淡疏离",
+   "prompt_zh": "中国女性面部，长脸，平眉细眼，冷淡疏离。",
+   "img": "faces/f057.jpg",
+   "src": "057_长脸，平眉细眼，冷淡疏离.jpg"
+  },
+  {
+   "id": "f079",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉圆眼，干净清纯",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉圆眼，干净清纯。",
+   "img": "faces/f079.jpg",
+   "src": "079_鹅蛋脸，平眉圆眼，干净清纯.jpg"
+  },
+  {
+   "id": "f080",
+   "gender": "female",
+   "name_cn": "圆脸，圆眼齐刘海，稚气可爱",
+   "prompt_zh": "中国女性面部，圆脸，圆眼齐刘海，稚气可爱。",
+   "img": "faces/f080.jpg",
+   "src": "080_圆脸，圆眼齐刘海，稚气可爱.jpg"
+  },
+  {
+   "id": "f081",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，杏眼圆润，温柔娴静",
+   "prompt_zh": "中国女性面部，鹅蛋脸，杏眼圆润，温柔娴静。",
+   "img": "faces/f081.jpg",
+   "src": "081_鹅蛋脸，杏眼圆润，温柔娴静.jpg"
+  },
+  {
+   "id": "f083",
+   "gender": "female",
+   "name_cn": "圆脸，细长笑眼，乖巧可爱",
+   "prompt_zh": "中国女性面部，圆脸，细长笑眼，乖巧可爱。",
+   "img": "faces/f083.jpg",
+   "src": "083_圆脸，细长笑眼，乖巧可爱.jpg"
+  },
+  {
+   "id": "f085",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，大眼卧蚕，甜美明丽",
+   "prompt_zh": "中国女性面部，鹅蛋脸，大眼卧蚕，甜美明丽。",
+   "img": "faces/f085.jpg",
+   "src": "085_鹅蛋脸，大眼卧蚕，甜美明丽.jpg"
+  },
+  {
+   "id": "f092",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，大眼浓睫，艳丽明媚",
+   "prompt_zh": "中国女性面部，鹅蛋脸，大眼浓睫，艳丽明媚。",
+   "img": "faces/f092.jpg",
+   "src": "092_鹅蛋脸，大眼浓睫，艳丽明媚.jpg"
+  },
+  {
+   "id": "f100",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉杏眼，温柔亲切",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉杏眼，温柔亲切。",
+   "img": "faces/f100.jpg",
+   "src": "100_鹅蛋脸，平眉杏眼，温柔亲切.jpg"
+  },
+  {
+   "id": "f101",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉细长眼，清秀自然",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉细长眼，清秀自然。",
+   "img": "faces/f101.jpg",
+   "src": "101_鹅蛋脸，平眉细长眼，清秀自然.jpg"
+  },
+  {
+   "id": "f102",
+   "gender": "female",
+   "name_cn": "圆脸，细弯眉圆眼，稚气亲和",
+   "prompt_zh": "中国女性面部，圆脸，细弯眉圆眼，稚气亲和。",
+   "img": "faces/f102.jpg",
+   "src": "102_圆脸，细弯眉圆眼，稚气亲和.jpg"
+  },
+  {
+   "id": "f103",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，浅眉杏眼，清甜乖巧",
+   "prompt_zh": "中国女性面部，鹅蛋脸，浅眉杏眼，清甜乖巧。",
+   "img": "faces/f103.jpg",
+   "src": "103_鹅蛋脸，浅眉杏眼，清甜乖巧.jpg"
+  },
+  {
+   "id": "f104",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平眉圆眼，清纯甜美",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平眉圆眼，清纯甜美。",
+   "img": "faces/f104.jpg",
+   "src": "104_鹅蛋脸，平眉圆眼，清纯甜美.jpg"
+  },
+  {
+   "id": "f105",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，平直眉杏眼，温柔清秀",
+   "prompt_zh": "中国女性面部，鹅蛋脸，平直眉杏眼，温柔清秀。",
+   "img": "faces/f105.jpg",
+   "src": "105_鹅蛋脸，平直眉杏眼，温柔清秀.jpg"
+  },
+  {
+   "id": "f106",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，浓眉大眼，明艳大方",
+   "prompt_zh": "中国女性面部，鹅蛋脸，浓眉大眼，明艳大方。",
+   "img": "faces/f106.jpg",
+   "src": "106_鹅蛋脸，浓眉大眼，明艳大方.jpg"
+  },
+  {
+   "id": "f107",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细平眉杏眼，温柔恬静",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细平眉杏眼，温柔恬静。",
+   "img": "faces/f107.jpg",
+   "src": "107_鹅蛋脸，细平眉杏眼，温柔恬静.jpg"
+  },
+  {
+   "id": "f108",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，淡眉内双窄长眼，清冷疏离",
+   "prompt_zh": "中国女性面部，鹅蛋脸，淡眉内双窄长眼，清冷疏离。",
+   "img": "faces/f108.jpg",
+   "src": "108_鹅蛋脸，淡眉内双窄长眼，清冷疏离.jpg"
+  },
+  {
+   "id": "f109",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，淡眉双眼皮微垂眼，慵懒温柔",
+   "prompt_zh": "中国女性面部，鹅蛋脸，淡眉双眼皮微垂眼，慵懒温柔。",
+   "img": "faces/f109.jpg",
+   "src": "109_鹅蛋脸，淡眉双眼皮微垂眼，慵懒温柔.jpg"
+  },
+  {
+   "id": "f110",
+   "gender": "female",
+   "name_cn": "长脸，平眉单眼皮窄长眼，清冷疏离",
+   "prompt_zh": "中国女性面部，长脸，平眉单眼皮窄长眼，清冷疏离。",
+   "img": "faces/f110.jpg",
+   "src": "110_长脸，平眉单眼皮窄长眼，清冷疏离.jpg"
+  },
+  {
+   "id": "f111",
+   "gender": "female",
+   "name_cn": "圆脸，平眉圆眼，甜美亲和",
+   "prompt_zh": "中国女性面部，圆脸，平眉圆眼，甜美亲和。",
+   "img": "faces/f111.jpg",
+   "src": "111_圆脸，平眉圆眼，甜美亲和.jpg"
+  },
+  {
+   "id": "f112",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细眉大眼，明艳冷感",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细眉大眼，明艳冷感。",
+   "img": "faces/f112.jpg",
+   "src": "112_鹅蛋脸，细眉大眼，明艳冷感.jpg"
+  },
+  {
+   "id": "f113",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，淡眉单眼皮细长眼，清纯稚气",
+   "prompt_zh": "中国女性面部，鹅蛋脸，淡眉单眼皮细长眼，清纯稚气。",
+   "img": "faces/f113.jpg",
+   "src": "113_鹅蛋脸，淡眉单眼皮细长眼，清纯稚气.jpg"
+  },
+  {
+   "id": "f114",
+   "gender": "female",
+   "name_cn": "方圆脸，浓眉深目，成熟知性",
+   "prompt_zh": "中国女性面部，方圆脸，浓眉深目，成熟知性。",
+   "img": "faces/f114.jpg",
+   "src": "114_方圆脸，浓眉深目，成熟知性.jpg"
+  },
+  {
+   "id": "f115",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，淡眉圆眼，清纯干净",
+   "prompt_zh": "中国女性面部，鹅蛋脸，淡眉圆眼，清纯干净。",
+   "img": "faces/f115.jpg",
+   "src": "115_鹅蛋脸，淡眉圆眼，清纯干净.jpg"
+  },
+  {
+   "id": "f116",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，淡眉细长眼，文静清冷",
+   "prompt_zh": "中国女性面部，鹅蛋脸，淡眉细长眼，文静清冷。",
+   "img": "faces/f116.jpg",
+   "src": "116_鹅蛋脸，淡眉细长眼，文静清冷.jpg"
+  },
+  {
+   "id": "f117",
+   "gender": "female",
+   "name_cn": "圆脸，细眉大眼，甜美活泼",
+   "prompt_zh": "中国女性面部，圆脸，细眉大眼，甜美活泼。",
+   "img": "faces/f117.jpg",
+   "src": "117_圆脸，细眉大眼，甜美活泼.jpg"
+  },
+  {
+   "id": "f118",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，淡眉圆眼，清纯少女",
+   "prompt_zh": "中国女性面部，鹅蛋脸，淡眉圆眼，清纯少女。",
+   "img": "faces/f118.jpg",
+   "src": "118_鹅蛋脸，淡眉圆眼，清纯少女.jpg"
+  },
+  {
+   "id": "f119",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细眉细长眼，清冷淡然",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细眉细长眼，清冷淡然。",
+   "img": "faces/f119.jpg",
+   "src": "119_鹅蛋脸，细眉细长眼，清冷淡然.jpg"
+  },
+  {
+   "id": "f120",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，粗平眉大眼，素净端庄",
+   "prompt_zh": "中国女性面部，鹅蛋脸，粗平眉大眼，素净端庄。",
+   "img": "faces/f120.jpg",
+   "src": "120_鹅蛋脸，粗平眉大眼，素净端庄.jpg"
+  },
+  {
+   "id": "f121",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细眉弯眼，温柔甜美",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细眉弯眼，温柔甜美。",
+   "img": "faces/f121.jpg",
+   "src": "121_鹅蛋脸，细眉弯眼，温柔甜美.jpg"
+  },
+  {
+   "id": "f122",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，弯眉笑眼，热情开朗",
+   "prompt_zh": "中国女性面部，鹅蛋脸，弯眉笑眼，热情开朗。",
+   "img": "faces/f122.jpg",
+   "src": "122_鹅蛋脸，弯眉笑眼，热情开朗.jpg"
+  },
+  {
+   "id": "f123",
+   "gender": "female",
+   "name_cn": "鹅蛋脸，细眉大圆眼，甜美明亮",
+   "prompt_zh": "中国女性面部，鹅蛋脸，细眉大圆眼，甜美明亮。",
+   "img": "faces/f123.jpg",
+   "src": "123_鹅蛋脸，细眉大圆眼，甜美明亮.jpg"
+  },
+  {
+   "id": "f124",
+   "gender": "male",
+   "name_cn": "方脸，浓眉宽鼻，憨厚朴实",
+   "prompt_zh": "中国男性面部，方脸，浓眉宽鼻，憨厚朴实。",
+   "img": "faces/f124.jpg",
+   "src": "001_方脸，浓眉宽鼻，憨厚朴实.jpg"
+  },
+  {
+   "id": "f125",
+   "gender": "male",
+   "name_cn": "鹅蛋脸，浓眉亮眼，端正开朗",
+   "prompt_zh": "中国男性面部，鹅蛋脸，浓眉亮眼，端正开朗。",
+   "img": "faces/f125.jpg",
+   "src": "002_鹅蛋脸，浓眉亮眼，端正开朗.jpg"
+  },
+  {
+   "id": "f126",
+   "gender": "male",
+   "name_cn": "方脸，浓眉笑纹，憨厚爽朗",
+   "prompt_zh": "中国男性面部，方脸，浓眉笑纹，憨厚爽朗。",
+   "img": "faces/f126.jpg",
+   "src": "003_方脸，浓眉笑纹，憨厚爽朗.jpg"
+  },
+  {
+   "id": "f127",
+   "gender": "male",
+   "name_cn": "方脸，浓眉深目，硬朗英气",
+   "prompt_zh": "中国男性面部，方脸，浓眉深目，硬朗英气。",
+   "img": "faces/f127.jpg",
+   "src": "004_方脸，浓眉深目，硬朗英气.jpg"
+  },
+  {
+   "id": "f128",
+   "gender": "male",
+   "name_cn": "鹅蛋脸，浓眉杏眼，清秀俊朗",
+   "prompt_zh": "中国男性面部，鹅蛋脸，浓眉杏眼，清秀俊朗。",
+   "img": "faces/f128.jpg",
+   "src": "005_鹅蛋脸，浓眉杏眼，清秀俊朗.jpg"
+  },
+  {
+   "id": "f129",
+   "gender": "male",
+   "name_cn": "方脸，浓眉窄眼，沉稳坚毅",
+   "prompt_zh": "中国男性面部，方脸，浓眉窄眼，沉稳坚毅。",
+   "img": "faces/f129.jpg",
+   "src": "006_方脸，浓眉窄眼，沉稳坚毅.jpg"
+  },
+  {
+   "id": "f130",
+   "gender": "male",
+   "name_cn": "圆脸，单眼皮塌鼻，朴实木讷",
+   "prompt_zh": "中国男性面部，圆脸，单眼皮塌鼻，朴实木讷。",
+   "img": "faces/f130.jpg",
+   "src": "007_圆脸，单眼皮塌鼻，朴实木讷.jpg"
+  },
+  {
+   "id": "f131",
+   "gender": "male",
+   "name_cn": "长脸，浓眉深目，忧郁文艺",
+   "prompt_zh": "中国男性面部，长脸，浓眉深目，忧郁文艺。",
+   "img": "faces/f131.jpg",
+   "src": "008_长脸，浓眉深目，忧郁文艺.jpg"
+  },
+  {
+   "id": "f132",
+   "gender": "male",
+   "name_cn": "方脸，浓眉平眉，端正忠厚",
+   "prompt_zh": "中国男性面部，方脸，浓眉平眉，端正忠厚。",
+   "img": "faces/f132.jpg",
+   "src": "009_方脸，浓眉平眉，端正忠厚.jpg"
+  },
+  {
+   "id": "f133",
+   "gender": "male",
+   "name_cn": "方脸，深皱浓须，沧桑厚重",
+   "prompt_zh": "中国男性面部，方脸，深皱浓须，沧桑厚重。",
+   "img": "faces/f133.jpg",
+   "src": "010_方脸，深皱浓须，沧桑厚重.jpg"
+  },
+  {
+   "id": "f134",
+   "gender": "male",
+   "name_cn": "长脸，深纹长须，苍老坚忍",
+   "prompt_zh": "中国男性面部，长脸，深纹长须，苍老坚忍。",
+   "img": "faces/f134.jpg",
+   "src": "011_长脸，深纹长须，苍老坚忍.jpg"
+  },
+  {
+   "id": "f135",
+   "gender": "male",
+   "name_cn": "方脸，浓眉短须，沉稳内敛",
+   "prompt_zh": "中国男性面部，方脸，浓眉短须，沉稳内敛。",
+   "img": "faces/f135.jpg",
+   "src": "012_方脸，浓眉短须，沉稳内敛.jpg"
+  },
+  {
+   "id": "f136",
+   "gender": "male",
+   "name_cn": "方脸，单眼皮平眉，干练稳重",
+   "prompt_zh": "中国男性面部，方脸，单眼皮平眉，干练稳重。",
+   "img": "faces/f136.jpg",
+   "src": "013_方脸，单眼皮平眉，干练稳重.jpg"
+  },
+  {
+   "id": "f137",
+   "gender": "male",
+   "name_cn": "长脸，浓眉笑眼，阳光亲和",
+   "prompt_zh": "中国男性面部，长脸，浓眉笑眼，阳光亲和。",
+   "img": "faces/f137.jpg",
+   "src": "014_长脸，浓眉笑眼，阳光亲和.jpg"
+  },
+  {
+   "id": "f138",
+   "gender": "male",
+   "name_cn": "圆脸，单眼皮圆鼻，憨厚少年",
+   "prompt_zh": "中国男性面部，圆脸，单眼皮圆鼻，憨厚少年。",
+   "img": "faces/f138.jpg",
+   "src": "015_圆脸，单眼皮圆鼻，憨厚少年.jpg"
+  },
+  {
+   "id": "f139",
+   "gender": "male",
+   "name_cn": "鹅蛋脸，浓眉大眼，端正俊朗",
+   "prompt_zh": "中国男性面部，鹅蛋脸，浓眉大眼，端正俊朗。",
+   "img": "faces/f139.jpg",
+   "src": "016_鹅蛋脸，浓眉大眼，端正俊朗.jpg"
+  },
+  {
+   "id": "f140",
+   "gender": "male",
+   "name_cn": "鹅蛋脸，浓眉杏眼，清秀少年",
+   "prompt_zh": "中国男性面部，鹅蛋脸，浓眉杏眼，清秀少年。",
+   "img": "faces/f140.jpg",
+   "src": "017_鹅蛋脸，浓眉杏眼，清秀少年.jpg"
+  },
+  {
+   "id": "f141",
+   "gender": "male",
+   "name_cn": "方脸，浓眉平直，端方正气",
+   "prompt_zh": "中国男性面部，方脸，浓眉平直，端方正气。",
+   "img": "faces/f141.jpg",
+   "src": "018_方脸，浓眉平直，端方正气.jpg"
+  },
+  {
+   "id": "f142",
+   "gender": "male",
+   "name_cn": "方脸，浓眉深目，硬朗冷峻",
+   "prompt_zh": "中国男性面部，方脸，浓眉深目，硬朗冷峻。",
+   "img": "faces/f142.jpg",
+   "src": "019_方脸，浓眉深目，硬朗冷峻.jpg"
+  },
+  {
+   "id": "f143",
+   "gender": "male",
+   "name_cn": "长脸，单眼皮挺鼻，清冷沉静",
+   "prompt_zh": "中国男性面部，长脸，单眼皮挺鼻，清冷沉静。",
+   "img": "faces/f143.jpg",
+   "src": "020_长脸，单眼皮挺鼻，清冷沉静.jpg"
+  },
+  {
+   "id": "f144",
+   "gender": "male",
+   "name_cn": "方脸，浓眉雀斑，粗犷质朴",
+   "prompt_zh": "中国男性面部，方脸，浓眉雀斑，粗犷质朴。",
+   "img": "faces/f144.jpg",
+   "src": "021_方脸，浓眉雀斑，粗犷质朴.jpg"
+  },
+  {
+   "id": "f145",
+   "gender": "male",
+   "name_cn": "方圆脸，浓眉厚唇，憨实淳朴",
+   "prompt_zh": "中国男性面部，方圆脸，浓眉厚唇，憨实淳朴。",
+   "img": "faces/f145.jpg",
+   "src": "022_方圆脸，浓眉厚唇，憨实淳朴.jpg"
+  },
+  {
+   "id": "f146",
+   "gender": "male",
+   "name_cn": "长脸，浓眉窄眼，冷峻内敛",
+   "prompt_zh": "中国男性面部，长脸，浓眉窄眼，冷峻内敛。",
+   "img": "faces/f146.jpg",
+   "src": "023_长脸，浓眉窄眼，冷峻内敛.jpg"
+  },
+  {
+   "id": "f147",
+   "gender": "male",
+   "name_cn": "鹅蛋脸，平眉细眼，斯文温和",
+   "prompt_zh": "中国男性面部，鹅蛋脸，平眉细眼，斯文温和。",
+   "img": "faces/f147.jpg",
+   "src": "024_鹅蛋脸，平眉细眼，斯文温和.jpg"
+  },
+  {
+   "id": "f148",
+   "gender": "male",
+   "name_cn": "长脸，浓眉深目，忧郁俊美",
+   "prompt_zh": "中国男性面部，长脸，浓眉深目，忧郁俊美。",
+   "img": "faces/f148.jpg",
+   "src": "025_长脸，浓眉深目，忧郁俊美.jpg"
+  },
+  {
+   "id": "f149",
+   "gender": "male",
+   "name_cn": "鹅蛋脸，平眉单眼皮，斯文内敛",
+   "prompt_zh": "中国男性面部，鹅蛋脸，平眉单眼皮，斯文内敛。",
+   "img": "faces/f149.jpg",
+   "src": "026_鹅蛋脸，平眉单眼皮，斯文内敛.jpg"
+  },
+  {
+   "id": "f150",
+   "gender": "male",
+   "name_cn": "方脸，浓眉杏眼，端正清俊",
+   "prompt_zh": "中国男性面部，方脸，浓眉杏眼，端正清俊。",
+   "img": "faces/f150.jpg",
+   "src": "027_方脸，浓眉杏眼，端正清俊.jpg"
+  },
+  {
+   "id": "f151",
+   "gender": "male",
+   "name_cn": "长脸，单眼皮平眉，冷淡疏离",
+   "prompt_zh": "中国男性面部，长脸，单眼皮平眉，冷淡疏离。",
+   "img": "faces/f151.jpg",
+   "src": "028_长脸，单眼皮平眉，冷淡疏离.jpg"
+  },
+  {
+   "id": "f152",
+   "gender": "male",
+   "name_cn": "方脸，浓眉亮眼，阳光爽朗",
+   "prompt_zh": "中国男性面部，方脸，浓眉亮眼，阳光爽朗。",
+   "img": "faces/f152.jpg",
+   "src": "029_方脸，浓眉亮眼，阳光爽朗.jpg"
+  },
+  {
+   "id": "f153",
+   "gender": "male",
+   "name_cn": "方圆脸，单眼皮宽鼻，憨厚朴实",
+   "prompt_zh": "中国男性面部，方圆脸，单眼皮宽鼻，憨厚朴实。",
+   "img": "faces/f153.jpg",
+   "src": "030_方圆脸，单眼皮宽鼻，憨厚朴实.jpg"
+  },
+  {
+   "id": "f154",
+   "gender": "male",
+   "name_cn": "长脸，细眉戴镜，文气斯文",
+   "prompt_zh": "中国男性面部，长脸，细眉戴镜，文气斯文。",
+   "img": "faces/f154.jpg",
+   "src": "031_长脸，细眉戴镜，文气斯文.jpg"
+  },
+  {
+   "id": "f155",
+   "gender": "male",
+   "name_cn": "方脸，深纹戴镜，威严持重",
+   "prompt_zh": "中国男性面部，方脸，深纹戴镜，威严持重。",
+   "img": "faces/f155.jpg",
+   "src": "032_方脸，深纹戴镜，威严持重.jpg"
+  },
+  {
+   "id": "f156",
+   "gender": "male",
+   "name_cn": "方脸，浓眉平直，端正朴实",
+   "prompt_zh": "中国男性面部，方脸，浓眉平直，端正朴实。",
+   "img": "faces/f156.jpg",
+   "src": "033_方脸，浓眉平直，端正朴实.jpg"
+  },
+  {
+   "id": "f157",
+   "gender": "male",
+   "name_cn": "长脸，浓眉笑眼，阳光俊朗",
+   "prompt_zh": "中国男性面部，长脸，浓眉笑眼，阳光俊朗。",
+   "img": "faces/f157.jpg",
+   "src": "034_长脸，浓眉笑眼，阳光俊朗.jpg"
+  },
+  {
+   "id": "f158",
+   "gender": "male",
+   "name_cn": "方脸，单眼皮淡眉，稳重内敛",
+   "prompt_zh": "中国男性面部，方脸，单眼皮淡眉，稳重内敛。",
+   "img": "faces/f158.jpg",
+   "src": "035_方脸，单眼皮淡眉，稳重内敛.jpg"
+  },
+  {
+   "id": "f159",
+   "gender": "male",
+   "name_cn": "方脸，深纹戴镜，和蔼从容",
+   "prompt_zh": "中国男性面部，方脸，深纹戴镜，和蔼从容。",
+   "img": "faces/f159.jpg",
+   "src": "036_方脸，深纹戴镜，和蔼从容.jpg"
+  },
+  {
+   "id": "f160",
+   "gender": "male",
+   "name_cn": "长脸，细眉黑框镜，文气斯文",
+   "prompt_zh": "中国男性面部，长脸，细眉黑框镜，文气斯文。",
+   "img": "faces/f160.jpg",
+   "src": "037_长脸，细眉黑框镜，文气斯文.jpg"
+  },
+  {
+   "id": "f161",
+   "gender": "male",
+   "name_cn": "方圆脸，浓眉深眼，端正沉稳",
+   "prompt_zh": "中国男性面部，方圆脸，浓眉深眼，端正沉稳。",
+   "img": "faces/f161.jpg",
+   "src": "038_方圆脸，浓眉深眼，端正沉稳.jpg"
+  },
+  {
+   "id": "f162",
+   "gender": "male",
+   "name_cn": "方脸，白发长须，儒雅学者",
+   "prompt_zh": "中国男性面部，方脸，白发长须，儒雅学者。",
+   "img": "faces/f162.jpg",
+   "src": "039_方脸，白发长须，儒雅学者.jpg"
+  },
+  {
+   "id": "f163",
+   "gender": "male",
+   "name_cn": "鹅蛋脸，浓眉清晰，清俊端正",
+   "prompt_zh": "中国男性面部，鹅蛋脸，浓眉清晰，清俊端正。",
+   "img": "faces/f163.jpg",
+   "src": "040_鹅蛋脸，浓眉清晰，清俊端正.jpg"
+  }
+ ]
+}
