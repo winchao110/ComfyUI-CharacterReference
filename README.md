@@ -1,6 +1,6 @@
 # 人物参考 · ComfyUI 节点包（Character Reference）
 
-把「人物造型参考」做成三个可视化节点：**发型选择器** + **服装选择器** + **人脸选择器**。
+把「人物造型参考」做成四个可视化节点：**发型选择器** + **服装选择器** + **人脸选择器** + **其他素材管理节点**。
 节点上直接显示当前选中的图，**点一下弹出选择面板**，选完自动写回节点，
 执行时输出「图片 + 中文提示词」，可以直接接到 Qwen-Image-Edit / SDXL / 视频工作流里当参考图。
 
@@ -9,6 +9,7 @@
 | 发型选择器 | 人物参考 / 发型 | 82 款（女生 52 / 男生 30），640×640 | 发型图 + 中文提示词 |
 | 服装选择器 | 人物参考 / 服装 | 1407 款（8 分类 × 女装 / 男装），800×1200 | 服装图 + 中文提示词 |
 | 人脸选择器 | 人物参考 / 人脸 | 163 张中国人脸（女 123 / 男 40），768×768 | 人脸图 + 中文提示词 |
+| 其他素材管理节点 | 人物参考 / 其他素材 | **初始为空**，由用户自己加 / 删，类别可自定义，尺寸不限 | 素材图（原尺寸）+ 提示词 |
 
 > 目录名保持英文 `ComfyUI-CharacterReference`（ComfyUI 按目录名当模块名加载，中文目录会有兼容风险），
 > 节点菜单里的分类名是「人物参考」。
@@ -121,7 +122,44 @@ dress/top/bottom/legwear/shoe/bag/acc 依次写成
 - 五官：眉形 + 单/双眼皮 + 眼型 + 鼻唇（「浓眉深目」「单眼皮宽眼距」「细眉杏眼」）
 - 气质：温婉端庄、清冷疏离、憨厚朴实、硬朗英气、儒雅学者……
 
-## 四、目录结构
+## 四、其他素材管理节点
+
+1. 新建节点 → **人物参考 / 其他素材 / 其他素材管理节点**
+2. 库**初始为空**，点「＋ 添加素材」自己攒；卡片左上角标原始尺寸、左下角是**类别标签**
+3. 添加时**只需要选图**：类别和提示词都可以不填；点了「✎」随时能改
+4. 支持一次多选多张，每张单独一行提示词
+
+**类别**：
+
+- 类别栏可以**选已有类别**，也可以**直接填一个新的**——不用预先建分类，填什么就是什么
+- 不填（或只填空格）**自动归到「其他」**
+- 面板顶部有类别标签行：`全部 / 各分类`，带该类数量，点一下只看这一类，再点「全部」回来
+- 某类的图全部删掉后，这个类别标签会自动消失
+- 老数据没有类别字段，一律显示为「其他」
+
+**画质口径**：
+
+| 情形 | 处理 |
+|---|---|
+| 压缩栏**留空** | 原图**原样保存**：像素尺寸、文件字节都不动（实测下载回来与原图 MD5 一致） |
+| 填 `2`（百万像素） | 按总像素等比缩放到 2MP，长宽比不变；只缩小、不放大 |
+| 原图带 EXIF 旋转 | 自动摆正（这一种会重编码，JPEG q95 / PNG 无损） |
+
+压缩单位是**百万像素（MP）**，等于 长 × 宽 ÷ 1,000,000，自由填小数（0.1 ~ 400）；
+比如 4000×3000 是 12MP，填 `3` 就得到约 2000×1500。
+
+输出：
+
+| 输出口 | 类型 | 内容 |
+|---|---|---|
+| 素材图 | IMAGE | **原始像素尺寸**，不裁不缩（走 downstream 再按需 resize） |
+| 提示词 | STRING | 填了就原样输出；没填则是空串 |
+
+参数：`asset_id`（前端隐藏）、`random`。
+
+**「🗑 删除素材」**：与其它三个面板一致（多选 → 确认 → 连图片文件一起删）。
+
+## 五、目录结构
 
 ```
 ComfyUI-CharacterReference/
@@ -130,14 +168,17 @@ ComfyUI-CharacterReference/
 ├─ cr_hair.py             发型节点 + 路由 /hairstyle_picker/*
 ├─ cr_garment.py          服装节点 + 路由 /garment_picker/*
 ├─ cr_face.py             人脸节点 + 路由 /face_picker/*
+├─ cr_other.py            其他素材节点 + 路由 /other_picker/*
 ├─ web/
 │  ├─ hairstyle.js        发型节点缩略图 + 面板
 │  ├─ garment.js          服装节点缩略图 + 面板（8 分类 + 滚动增量渲染）
-│  └─ face.js             人脸节点缩略图 + 面板
+│  ├─ face.js             人脸节点缩略图 + 面板
+│  └─ other.js            其他素材节点缩略图 + 面板（任意比例 contain 显示）
 ├─ assets/
 │  ├─ hairstyles.json     发型数据（640×640 图在 women/ men/）
 │  ├─ garments.json       服装数据（800×1200 图在 garments/<分类>/）
 │  ├─ faces.json          人脸数据（768×768 图在 faces/）
+│  ├─ others.json         其他素材数据（图在 others/，尺寸不限，默认空）
 │  └─ garments/{spring,summer,autumn,winter,lingerie,party,swim,sexy}/
 └─ tools/
    ├─ build_library.py    重建发型库
@@ -145,7 +186,7 @@ ComfyUI-CharacterReference/
    └─ build_faces.py      重建人脸库（从「人脸库/女、男」导入，转 768×768）
 ```
 
-## 五、重建图库
+## 六、重建图库
 
 ```bash
 # 发型
@@ -155,13 +196,13 @@ python tools/build_library.py [女生图目录] [男生图目录] [提示词txt]
 python tools/build_garments.py [garment.json] [图片目录]
 
 # 人脸（源目录下要有 女/ 男/ 两个子文件夹，文件名「序号_脸型，五官，气质.jpg」）
-python tools/build_faces.py "C:\Users\Administrator\Downloads\人脸库"
+python tools/build_faces.py "<人脸图库目录>"
 ```
 
 发型 / 服装会**保留面板里手动添加的条目**（`"source": "user"` 的 `uNN`）；
 人脸重建是整体替换（旧图已备份在 `custom_nodes/_backup_nodes/faces_old188_20261102/`）。
 
-## 六、接口（前端用，也可直接调）
+## 七、接口（前端用，也可直接调）
 
 | 方法 | 路径 | 说明 |
 |---|---|---|
@@ -177,10 +218,15 @@ python tools/build_faces.py "C:\Users\Administrator\Downloads\人脸库"
 | GET | `/face_picker/img/{id}` | 人脸图 |
 | POST | `/face_picker/add` | multipart：file / gender / name_cn / prompt_zh |
 | POST | `/face_picker/delete` | JSON：`{"ids":[...]}` |
+| GET | `/other_picker/list` | 素材列表（含类别 / 宽高 / 百万像素 / 字节数）+ 类别统计 `cats` + 版本号 |
+| GET | `/other_picker/img/{id}` | 素材原图 |
+| POST | `/other_picker/add` | multipart：file（必填）/ cat（选填，类别，留空 = 其他）/ prompt（选填）/ mp（选填，百万像素）/ name |
+| POST | `/other_picker/update` | JSON：`{"id":"o01","cat":"场景","prompt":"..."}`（两个字段可只传一个） |
+| POST | `/other_picker/delete` | JSON：`{"ids":[...]}` |
 
 列表接口返回的图片 URL 带 `?v=<版本号>`，增删条目后版本号变化，浏览器不会拿到旧图。
 
-## 七、人脸素材来源
+## 八、人脸素材来源
 
 - `assets/faces/f001..f163.jpg`：**163 张 768×768 纯面部方形特写**（女 123 / 男 40），19 MB。
 - `assets/faces.json`：`{id, gender, name_cn, prompt_zh, img, src}`，`prompt_zh` 形如
@@ -196,8 +242,10 @@ python tools/build_faces.py "C:\Users\Administrator\Downloads\人脸库"
 - 抓取、检测、裁切、导入脚本在 `tools/build_faces.py`（导入 + 建 json）与工作区 `_faces_crawl/`（抓取链路），
   原始素材与模型缓存已清理，模型（YuNet 232KB + genderage 1.3MB）留在 `_faces_crawl/models/`。
 
-## 八、说明
+## 九、说明
 
 - 图片仅作本地造型参考与提示词对照使用；商用请替换为自己拍摄或授权的素材。
 - 改完 Python 代码需要重启 ComfyUI（Manager → 重启）生效；只改 `web/*.js` 的话浏览器强制刷新即可。
 - 发型图建议 1:1，服装图建议 2:3，其他比例上传会自动居中裁剪。
+- 「其他素材」节点不裁不压，任意比例都按原样保存与输出；只有填了压缩像素才等比缩放。
+- 「其他素材」的类别是自由文本：先出现的排在前面，「其他」永远排在最后；类别名最长 24 字。

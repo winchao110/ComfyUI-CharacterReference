@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """人物参考 · ComfyUI 自定义节点包（Character Reference）
 
-包含三个节点：
+包含四个节点：
 
 - 发型选择器 HairStylePicker
     女生 / 男生发型库，点击缩略图弹出选择面板，输出「发型图 + 中文提示词」
@@ -11,14 +11,19 @@
 - 人脸选择器 FacePicker
     女性 / 男性真实中国人脸，图片统一 768×768，文件名即「脸型，五官特征，气质」，
     输出「人脸图 + 中文提示词」
+- 其他素材管理节点 OtherAssetsManager
+    库初始为空，用户自己加图 / 删图，只填图 + 提示词（选填）；
+    原图不压缩，也可等比压缩到指定百万像素；输出「素材图 + 提示词」
 
 目录说明：
     assets/hairstyles.json   发型库（women/ men/ 为图，640×640）
     assets/garments.json     服装库（garments/<分类>/ 为图，800×1200）
     assets/faces.json        人脸库（faces/ 为图，768×768）
+    assets/others.json       其他素材库（others/ 为图，尺寸不限，初始为空）
     web/hairstyle.js         发型节点前端（节点缩略图 + 选择面板）
     web/garment.js           服装节点前端
     web/face.js              人脸节点前端
+    web/other.js             其他素材节点前端
     tools/                   重建图库的脚本
 
 本机 ComfyUI 用 governance 加载器按文件加载节点包，节点目录不是 Python 包，
@@ -51,11 +56,12 @@ _common = _load("cr_common.py", "cr_common")
 _hair = _load("cr_hair.py", "cr_hair")
 _garment = _load("cr_garment.py", "cr_garment")
 _face = _load("cr_face.py", "cr_face")
+_other = _load("cr_other.py", "cr_other")
 
 NODE_CLASS_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS = {}
 
-for _m in (_hair, _garment, _face):
+for _m in (_hair, _garment, _face, _other):
     NODE_CLASS_MAPPINGS.update(_m.NODE_CLASS_MAPPINGS)
     NODE_DISPLAY_NAME_MAPPINGS.update(_m.NODE_DISPLAY_NAME_MAPPINGS)
 
