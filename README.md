@@ -16,6 +16,11 @@
 > 目录名保持英文 `ComfyUI-CharacterReference`（ComfyUI 按目录名当模块名加载，中文目录会有兼容风险），
 > 节点菜单里的分类名是「人物参考」。
 
+**现成工作流**：`examples/` 里有两个 Qwen-Image 2.1 示例，直接拖进画布就能跑 ——
+`qwen-image-2.1-character-text2img.json`（三选择器 → 文生全身图）、
+`qwen-image-2.1-outfit-swap.json`（换装 / 换头 / 文生四条分支），
+依赖的模型与第三方节点见 `examples/README.md`。
+
 ---
 
 ## 一、发型选择器
@@ -182,6 +187,10 @@ ComfyUI-CharacterReference/
 │  ├─ faces.json          人脸数据（768×768 图在 faces/）
 │  ├─ others.json         其他素材数据（图在 others/，尺寸不限，默认空）
 │  └─ garments/{spring,summer,autumn,winter,lingerie,party,swim,sexy}/
+├─ examples/
+│  ├─ qwen-image-2.1-character-text2img.json  示例：三选择器 → Qwen-Image 2.1 文生全身图
+│  ├─ qwen-image-2.1-outfit-swap.json         示例：换装 / 换头 / 文生 四条分支
+│  └─ README.md                               两个示例的用法、依赖模型与节点
 └─ tools/
    ├─ build_library.py    重建发型库
    ├─ build_garments.py   重建服装库（转 800×1200 + 生成中文提示词）
