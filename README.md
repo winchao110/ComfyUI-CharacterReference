@@ -1,5 +1,7 @@
 # 人物参考 · ComfyUI 节点包（Character Reference）
 
+**仓库地址：<https://github.com/winchao110/ComfyUI-CharacterReference>**
+
 把「人物造型参考」做成四个可视化节点：**发型选择器** + **服装选择器** + **人脸选择器** + **其他素材管理节点**。
 节点上直接显示当前选中的图，**点一下弹出选择面板**，选完自动写回节点，
 执行时输出「图片 + 中文提示词」，可以直接接到 Qwen-Image-Edit / SDXL / 视频工作流里当参考图。
